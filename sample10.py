@@ -7,7 +7,6 @@ thrid = input()
 if first > second:
     print ("the smallest number is",first)
 elif second < thrid:
-        print("the smallest number is:",second)
-
+    print("the smallest number is:",second)
 else:
-        print("the smallest number is",thrid)
+    print("the smallest number is",thrid)
