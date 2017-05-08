@@ -3,10 +3,14 @@ first = input()
 print("enter number 2:")
 second = input()
 print("enter number 3:")
-thrid = input()
-if first > second:
-    print ("the smallest number is",first)
-elif second < thrid:
-    print("the smallest number is:",second)
+third = input()
+if first < second:
+    if first < third:
+        print (f" {first} is the smallest")
+    else :
+        print(f"{third} is the smallest")
 else:
-    print("the smallest number is",thrid)
+    if second < third:
+        print("{second} is the smallest")
+    else:
+        print (f"{third} is the smallest")
