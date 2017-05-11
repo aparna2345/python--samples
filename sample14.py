@@ -8,5 +8,5 @@ while i < int(a):
     b= int(b)
     numbers.append(b)
 for number in numbers:
-    if number % 2 == 0:
+    if number % 2 == :
         print(f"the even number {number}")
