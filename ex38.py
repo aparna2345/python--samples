@@ -12,12 +12,12 @@ while len(stuff) != 10:
     stuff.append(next_one)
     print(f"There are {len(stuff)} items now.")
 
-print("There we go: ", stuff)
+#print("There we go: ", stuff)
 
-print("Let's do some things with stuff.")
+#print("Let's do some things with stuff.")
 
-print(stuff[1])
-print(stuff[-1]) # whoa! fancy
-print(stuff.pop())
-print(' '.join(stuff)) # what? cool!
-print('#'.join(stuff[3:5])) # super stellar!
+#print(stuff[1])
+#print(stuff[-1]) # whoa! fancy
+#print(stuff.pop())
+#print(' '.join(stuff)) # what? cool!
+#print('#'.join(stuff[3:5])) # super stellar!
